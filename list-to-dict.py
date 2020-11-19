@@ -5,4 +5,9 @@ print(p)
 
 
 
-print('hi')
+d={}
+for i in l1:
+    for j in l2:
+        d[i]=j
+        l1.remove(i)
+print(d)
