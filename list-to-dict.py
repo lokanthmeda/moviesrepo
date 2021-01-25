@@ -12,3 +12,4 @@ for i in l1:
         d[i]=j
         l1.remove(i)
 print(d)
+print('list-dict')
